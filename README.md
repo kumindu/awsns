@@ -1,0 +1,2 @@
+# awsns
+awsns notification receiver
