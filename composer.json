@@ -1,0 +1,36 @@
+{
+    "name": "kumindu/awsns",
+    "description": "aws sns service manager",
+    "keywords": [
+      "framework",
+      "aws-sdk",
+      "laravel",
+      "aws",
+      "sns"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kumindu Ranawaka",
+            "email": "kumindu_induranga@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "kumindu\\awsns\\": "src/"
+        }
+      },
+    "minimum-stability": "dev",
+    "require": {
+      "php": "^7.3|^8.0",
+      "guzzlehttp/guzzle": "^7.0.1",
+      "illuminate/container": "^8.0",
+      "illuminate/contracts": "^8.0",
+      "illuminate/events": "^8.0",
+      "illuminate/support":"^8.0",
+      "illuminate/cache": "^8.0",
+      "illuminate/queue": "^8.0"
+    }
+}
+
